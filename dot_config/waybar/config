@@ -1,0 +1,163 @@
+{
+	"layer": "top",	
+	"position": "top",
+    "height": 27,
+    "margin-top": 5,
+
+
+    "modules-left": [
+    "hyprland/window",
+    ],
+
+    "modules-center": [
+    "hyprland/workspaces",
+    ],
+
+    "modules-right": [
+    "custom/lyrics",
+    "custom/split",
+    "network", 
+    "custom/smallersplit",
+    "pulseaudio", 
+    "custom/smallersplit",
+    "custom/notification",
+    "custom/split",
+    "clock",
+    ],
+
+
+	"hyprland/window": {
+        "format": "{title}", 
+        "max-length": 150
+},
+
+
+"hyprland/workspaces": {
+    "format": "{icon}",
+    "format-icons": {
+        "default": "●",
+        "active": "●",
+        "focused": "●"
+    }
+},
+"custom/wayves": {
+    "format": "{}",
+    "exec": "python /home/brooke/.config/waybar/wayves/wayves.py -o cava -i cava -a cava"
+},
+
+  "custom/lyrics": {
+    "return-type": "json",
+    "format": "{icon}{0}",
+    "hide-empty-text": true,
+    "format-icons": {
+      "playing": "",
+      "paused": "",
+      "lyric": "",
+      "music": "",
+      "no_lyric": "",
+      "getting": "",
+    },
+    "exec-if": "which waybar-lyric",
+    "exec": "waybar-lyric --quiet --lyric-only",
+  },
+
+    "tray": {
+        "icon-size": 18,
+        "spacing": 15
+},
+
+
+"clock": {
+    "interval": 60,
+    "tooltip": true,
+    "format": "{:%A  %b  %I:%M %p}",
+},
+
+   "custom/notification": {
+    "tooltip": true,
+    "format": "<span>{icon}</span>",
+    "format-icons": {
+      "notification": "󱅫 ",
+      "none": "󰂜 ",
+      "dnd-notification": "󰂠 ",
+      "dnd-none": "󰪓 ",
+      "inhibited-notification": "󰂛 ",
+      "inhibited-none": "󰪑 ",
+      "dnd-inhibited-notification": "󰂛 ",
+      "dnd-inhibited-none": "󰪑 "
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+"custom/split":{
+    "format":"  /  "
+  },
+
+"custom/smallersplit":{
+    "format":"  "
+  },
+
+    "network": {
+    "format-wifi": "",
+    "format-ethernet": "",
+    "format-disconnected": "󰤮",
+    "interval": 5,
+    "tooltip": false
+},
+    "mpris": {
+        "format": "{status_icon} {dynamic}",
+        "interval": 1,
+        "dynamic-len": 40,
+        "status-icons": {
+            "playing": "▶",
+            "paused": "⏸",
+            "stopped": ""
+        },
+        "dynamic-order": ["title", "artist"]
+    },
+
+    "temperature": {
+	   	"thermal-zone": 0,
+		"format": "{icon} {temperatureC}°C",
+		"format-icons":[""],
+		"interval": 30
+},
+
+
+
+    "pulseaudio": {
+        "format": "{icon} ",
+        "format-bluetooth": "  {volume}%  ",
+        "format-muted":"婢  Mute  ",
+        "interval": 60,
+
+        "format-icons": {
+        "default": [""]
+},
+            
+       "on-click": "blueman-manager"    
+
+
+},
+
+"cpu": {
+        "format": "   {usage}%",
+        "tooltip": false
+    },
+    "memory": {
+        "format": "   {}%"
+    },
+
+"custom/weather": {
+    "format": " {}° ",
+    "tooltip": true,
+    "interval": 3600,
+    "exec": "wttrbar --nerd",
+    "return-type": "json"
+}
+
+}

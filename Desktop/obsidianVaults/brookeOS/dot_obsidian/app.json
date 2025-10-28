@@ -1,0 +1,9 @@
+{
+  "vimMode": true,
+  "promptDelete": false,
+  "showLineNumber": true,
+  "readableLineLength": false,
+  "strictLineBreaks": true,
+  "tabSize": 5,
+  "newFileLocation": "current"
+}
