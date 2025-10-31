@@ -3,7 +3,8 @@
 | **Course**   | [[Oral Communication 1]] |
 | ------------ | ------------------------ |
 | **Category** | #essay                   |
-| **Status**   | #WIP                     |
+| **Status**   | #DONE                    |
+|              |                          |
 
 ## Oral Communication Speech
 

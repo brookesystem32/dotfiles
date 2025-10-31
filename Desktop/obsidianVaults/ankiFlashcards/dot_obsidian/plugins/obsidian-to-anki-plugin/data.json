@@ -1,0 +1,167 @@
+{
+  "settings": {
+    "CUSTOM_REGEXPS": {
+      "Basic": "",
+      "Basic (and reversed card)": "",
+      "Basic (optional reversed card)": "",
+      "Basic (type in the answer)": "",
+      "Basic++": "",
+      "Basic++ Translation": "",
+      "Cloze": "((?:[^\\n][\\n]?)+) #flashcard ?\\n*((?:\\n(?:^.{1,3}$|^.{4}(?<!<!--).*))+)",
+      "Image Occlusion": ""
+    },
+    "FILE_LINK_FIELDS": {
+      "Basic": "Front",
+      "Basic (and reversed card)": "Front",
+      "Basic (optional reversed card)": "Add Reverse",
+      "Basic (type in the answer)": "Front",
+      "Basic++": "Front",
+      "Basic++ Translation": "Front",
+      "Cloze": "Text",
+      "Image Occlusion": "Occlusion"
+    },
+    "CONTEXT_FIELDS": {},
+    "FOLDER_DECKS": {
+      "0 - Images": "",
+      "0 - Templates": "",
+      "1 - Cards": ""
+    },
+    "FOLDER_TAGS": {
+      "0 - Images": "",
+      "0 - Templates": "",
+      "1 - Cards": ""
+    },
+    "Syntax": {
+      "Begin Note": "START",
+      "End Note": "END",
+      "Begin Inline Note": "STARTI",
+      "End Inline Note": "ENDI",
+      "Target Deck Line": "TARGET DECK",
+      "File Tags Line": "FILE TAGS",
+      "Delete Note Line": "DELETE",
+      "Frozen Fields Line": "FROZEN"
+    },
+    "Defaults": {
+      "Scan Directory": "1 - Cards",
+      "Tag": "",
+      "Deck": "Default",
+      "Scheduling Interval": 0,
+      "Add File Link": false,
+      "Add Context": false,
+      "CurlyCloze": false,
+      "CurlyCloze - Highlights to Clozes": false,
+      "ID Comments": true,
+      "Add Obsidian Tags": false
+    },
+    "IGNORED_FILE_GLOBS": [
+      "**/*.excalidraw.md"
+    ]
+  },
+  "Added Media": [
+    "Pasted image 20251029161609.png",
+    "Pasted image 20251029162613.png",
+    "Pasted image 20251029162744.png",
+    "Pasted image 20251029163026.png",
+    "Pasted image 20251029163307.png",
+    "Pasted image 20251029163350.png",
+    "Pasted image 20251029163710.png",
+    "Pasted image 20251029163825.png",
+    "Pasted image 20251029163854.png",
+    "Pasted image 20251029164000.png",
+    "Pasted image 20251029164041.png",
+    "Pasted image 20251029164150.png",
+    "Pasted image 20251029164240.png",
+    "Pasted image 20251029164403.png",
+    "Pasted image 20251029164601.png",
+    "Pasted image 20251029165249.png",
+    "Pasted image 20251029164844.png",
+    "Pasted image 20251029165031.png",
+    "Pasted image 20251029165123.png",
+    "Pasted image 20251029165214.png",
+    "Pasted image 20251029165522.png",
+    "Pasted image 20251029165603.png",
+    "Pasted image 20251029165942.png",
+    "Pasted image 20251029170159.png",
+    "Pasted image 20251029170318.png",
+    "Pasted image 20251029170549.png",
+    "Pasted image 20251029170749.png",
+    "Pasted image 20251029171141.png",
+    "Pasted image 20251029171227.png",
+    "Pasted image 20251029171345.png",
+    "Pasted image 20251029171718.png",
+    "Pasted image 20251029203255.png",
+    "Pasted image 20251029203420.png",
+    "Pasted image 20251029203622.png",
+    "Pasted image 20251029204808.png",
+    "Pasted image 20251029210459.png",
+    "Pasted image 20251029210827.png",
+    "Pasted image 20251029211156.png",
+    "Pasted image 20251029210942.png",
+    "Pasted image 20251029211520.png",
+    "Pasted image 20251029211842.png",
+    "Pasted image 20251029211957.png",
+    "Pasted image 20251029212026.png",
+    "Pasted image 20251029212103.png",
+    "Pasted image 20251029212132.png",
+    "Pasted image 20251029212231.png",
+    "Pasted image 20251029212414.png",
+    "Pasted image 20251029212438.png"
+  ],
+  "File Hashes": {
+    "1 - Cards/Philosophy.md": "95d9d4d49f6e4b0dd7f2a9db0e6c126a",
+    "0 - Templates/Cloze Deletion Template.md": "211db3c764a9a3e91f7a4f8d473fa191",
+    "1 - Cards/Philosophy Q2 Q2.md": "bb388021ea5057e02502575a8710a0d8",
+    "0 - Templates/002 Cloze Deletion Multiple Template.md": "93f87455efd239c6c443578a18a6569d",
+    "0 - Templates/001 Cloze Deletion Enumeration Template.md": "d97fd479fd3a70675123ea095e26bbaf",
+    "0 - Templates/000 Cloze Deletion Template.md": "7673acf45729560c2c2d9a930980cb66",
+    "1 - Cards/Philosophy Q2 Q3.md": "77e3e9c7656924cad9a4c3cc79344f0a",
+    "1 - Cards/Philosophy Q2 Q3 1.md": "f65fe2350dcbbd3179064ef75f3dd713",
+    "1 - Cards/Philosophy Q2 Q4.md": "f65fe2350dcbbd3179064ef75f3dd713",
+    "1 - Cards/Emp Tech Q2 - Q1.md": "cd18a1e2d61f6d9547235480baae94bb",
+    "1 - Cards/Emp Tech Q2 - Q2.md": "28ff0ce047c3ca95daa0f6d26f1bfe6e"
+  },
+  "fields_dict": {
+    "Basic": [
+      "Front",
+      "Back"
+    ],
+    "Basic (and reversed card)": [
+      "Front",
+      "Back"
+    ],
+    "Basic (optional reversed card)": [
+      "Add Reverse",
+      "Front",
+      "Back"
+    ],
+    "Basic (type in the answer)": [
+      "Front",
+      "Back"
+    ],
+    "Basic++": [
+      "Front",
+      "Translation (Question)",
+      "Back",
+      "Translation (Answer)",
+      "OptReverse",
+      "Sources"
+    ],
+    "Basic++ Translation": [
+      "Front",
+      "Back",
+      "OptReverse",
+      "Sources"
+    ],
+    "Cloze": [
+      "Text",
+      "Back Extra"
+    ],
+    "Image Occlusion": [
+      "Occlusion",
+      "Image",
+      "Header",
+      "Back Extra",
+      "Comments"
+    ]
+  }
+}

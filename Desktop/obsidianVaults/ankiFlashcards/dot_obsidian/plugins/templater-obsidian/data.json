@@ -1,0 +1,43 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "0 - Templates",
+  "templates_pairs": [
+    [
+      "screenshot",
+      "\nhyprctl dispatch focuswindow \"class:zen\" > /dev/null\nhyprshot -m window -m active --clipboard-only\nhyprctl dispatch focuswindow \"class:obsidian\" >  /dev/null\n{\n  echo key alt+tab\n  sleep 1\n  echo key ctrl+v\n  sleep 0.5\n  echo key k:28\n  sleep 0.5\n  echo key shift+k:28\n} | dotool"
+    ],
+    [
+      "translate",
+      "hyprctl dispatch focuswindow \"class:obsidian\" >/dev/null\n\necho key ctrl+c | dotool\n\nwl-paste | trans -b | wl-copy\n{\n  echo key alt+tab\n  echo key ctrl+v\n} | dotool"
+    ]
+  ],
+  "trigger_on_file_creation": false,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": true,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "",
+      "template": ""
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    "0 - Templates/003 Translate.md",
+    "0 - Templates/000 Screenshot.md"
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1
+}

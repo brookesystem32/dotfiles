@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "6be3f4dff0a1e90e",
+    "type": "split",
+    "children": [
+      {
+        "id": "95015b524b1d0b6b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae98e8f7bc37642d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "808a29bd69c98b37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "92cab13135cbba31",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2fa8966af00c672",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9a759b8f15112fc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "be12c6588f312a65",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ea87358510d73bcd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "4d083418e0078c3f",
+    "type": "split",
+    "children": [
+      {
+        "id": "7af52fc2580c5e7e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b91f8d1c46fa949",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "76d4baf671e985f0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "3a4acb424b84d3fe",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e83439e6cbc158c4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "808a29bd69c98b37",
+  "lastOpenFiles": [
+    "0 - Images/Pasted image 20251031110518.png",
+    "0 - Images/Pasted image 20251031110439.png",
+    "0 - Images/Pasted image 20251031110432.png",
+    "0 - Images/Pasted image 20251031110401.png",
+    "0 - Images/Pasted image 20251031110317.png",
+    "0 - Images/Pasted image 20251031110303.png",
+    "0 - Images/Pasted image 20251031110130.png",
+    "0 - Images/Pasted image 20251031105908.png",
+    "0 - Images/Pasted image 20251031105903.png",
+    "0 - Images/Pasted image 20251031105853.png",
+    "0 - Images/Pasted image 20251031105847.png",
+    "1 - Cards/Philosophy Q2 Q3.md",
+    "1 - Cards/Philosophy Q2 Q4.md",
+    "1 - Cards/Emp Tech Q2 - Q1.md",
+    "1 - Cards/Emp Tech Q2 - Q2.md",
+    "1 - Cards/Emp Tech Q2 - Q3.md",
+    "Untitled.md",
+    "0 - Templates/001 Cloze Deletion (Translation).md",
+    "1 - Cards/Philosophy Q2 Q2.md",
+    "0 - Templates/003 Translate.md",
+    "0 - Templates/003 Screenshot.md",
+    "0 - Templates/001 Cloze Deletion Enumeration Template.md",
+    "0 - Templates/002 Target Deck.md",
+    "0 - Templates/000 Cloze Deletion Template.md",
+    "1 - Cards/Emp Tech Q2 - Q1 1.md",
+    "1 - Cards/Philosophy.md",
+    "0 - Templates/002 Cloze Deletion Multiple Template.md",
+    "obsidian_templater_cheat_sheet.md",
+    "Welcome.md",
+    "0 - Templates",
+    "1 - Cards",
+    "0 - Images"
+  ]
+}

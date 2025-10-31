@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - School/1.1 - Courses/Music Of Speech (Oral Comm. Speech).md",
+                "file": "1 - School/1.1 - Courses/Oral Communication 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Music Of Speech (Oral Comm. Speech)"
+              "title": "Oral Communication 1"
             }
           }
         ]
@@ -177,8 +177,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "7aea5b7b180d419e",
+  "active": "052204e4e5c06102",
   "lastOpenFiles": [
+    "1 - School/1.1 - Courses/Go Bag.md",
+    "1 - School/1.1 - Courses/Oral Communication 1.md",
     "1 - School/1.1 - Courses/1st Semester - Grade 11/Music Of Speech (Oral Comm. Speech).md",
     "1 - School/1.1 - Courses/Music Of Speech (Oral Comm. Speech).md",
     "2 - Personal/Polymath.md",

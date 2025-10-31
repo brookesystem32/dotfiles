@@ -3,14 +3,18 @@
 	"position": "top",
     "height": 27,
     "margin-top": 5,
+    "margin-left": 20,
+    "margin-right": 20,
+
 
 
     "modules-left": [
-    "hyprland/window",
+    "custom/arch",
+    "custom/split",
+    "hyprland/workspaces",
     ],
 
     "modules-center": [
-    "hyprland/workspaces",
     ],
 
     "modules-right": [
@@ -30,6 +34,10 @@
         "format": "{title}", 
         "max-length": 150
 },
+"custom/arch":{
+    "format": " \ue732 ",
+    "on-click": "reboot"
+  },
 
 
 "hyprland/workspaces": {
@@ -58,7 +66,7 @@
       "getting": "",
     },
     "exec-if": "which waybar-lyric",
-    "exec": "waybar-lyric --quiet --lyric-only",
+    "exec": "waybar-lyric --quiet",
   },
 
     "tray": {
@@ -70,7 +78,7 @@
 "clock": {
     "interval": 60,
     "tooltip": true,
-    "format": "{:%A  %b  %I:%M %p}",
+    "format": "{:%A  %b %d  %I:%M %p}",
 },
 
    "custom/notification": {
@@ -94,7 +102,7 @@
     "escape": true
   },
 "custom/split":{
-    "format":"  /  "
+    "format":"    /    "
   },
 
 "custom/smallersplit":{
@@ -106,7 +114,8 @@
     "format-ethernet": "",
     "format-disconnected": "󰤮",
     "interval": 5,
-    "tooltip": false
+    "tooltip": false,
+    "on-click": "nmtui"
 },
     "mpris": {
         "format": "{status_icon} {dynamic}",
@@ -131,7 +140,7 @@
 
     "pulseaudio": {
         "format": "{icon} ",
-        "format-bluetooth": "  {volume}%  ",
+        "format-bluetooth": "",
         "format-muted":"婢  Mute  ",
         "interval": 60,
 
@@ -139,7 +148,7 @@
         "default": [""]
 },
             
-       "on-click": "blueman-manager"    
+       "on-click": "pavucontrol"    
 
 
 },

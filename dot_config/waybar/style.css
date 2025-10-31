@@ -1,7 +1,7 @@
-@define-color background rgba(37, 27, 28,0);
-@define-color second-background  rgba(68, 51, 39,0);
+@define-color background rgba(26, 46, 39,0);
+@define-color second-background  rgba(26, 46, 39,0.1);
 @define-color text rgba(230, 225, 187, 1);
-@define-color borders #A0907A;
+@define-color borders  rgba(26, 46, 39,0.1);
 @define-color focused #D08B57;
 @define-color focused2 #BFAA80;
 @define-color color1 #7699A3;
@@ -11,8 +11,8 @@
 
 
 * {
-    font-family: "Iosevka";
-
+    font-family: "Maple Mono";
+    
 }
 
 window#waybar { 
@@ -21,24 +21,27 @@ window#waybar {
 
 
 .modules-left {
+  border-radius: 10px;
     background-color: @second-background; 
-    color: #E6E1BB;
-    font-size: 12px;
-	padding: 0px 5px 0px 0px;
+    color: #E6F3FB;
+  font-size: 12px;
+  padding: 0px 10px;
 }
 
-.modules-middle{
-    background-color: @second-background; 
-    color: #E6E1BB;
+.modules-center{
+  border-radius:10px;
+    background-color: transparent; 
+    color: #E6F3FB;
     font-size: 12px;
-	padding: 0px 5px 0px 0px;
+  padding: 0px 10px;
 }
 
 .modules-right {
-    color: #E6E1BB;
+  border-radius:10px;
+    color: #E6F3FB;
     font-size: 12px;
     background-color: @second-background; 
-	padding: 0px 0px 0px 5px;
+	padding: 0px 10px;
 }
 
 #custom-split{
@@ -50,30 +53,19 @@ window#waybar {
 
 
 
-#network, #temperature, #backlight, #pulseudio, #battery, #mpris, #custom-wayves, #custom-wayves, #cpu, #memory, #custom-lyrics, #window {
-    padding: 0px 15px 0px 15px;
-}
+
     
 #network{
   padding:0px;
 
 }
-#clock {
-	margin: 0px 15px 0px 15px;
-}
-
-#tray{
-   padding: 0px 8px 0px 5px;
-   margin: 0px 5px 0px 5px;
-}
 
 #workspaces button {
   transition-duration: 800ms;
   all:initial;
-  margin-right: 0.12cm;
-  margin-left: 0.12cm;
+
     color: rgba(230, 225, 187, 0.2);
-  padding:0px;
+  padding:0px 2px;
       border-radius: 10px; /* This is the key for the pill shape */
 }
 
@@ -83,13 +75,13 @@ window#waybar {
 }
 #workspaces button.active
 {
-  transition-duration: 500ms;
+  transition-duration: 400ms;
   opacity:1;
     background-color: #E6E1BB;
     color: transparent;
       border: none;
-      padding: 2px 40px 2px 0px; /* Adjust padding as needed */
+      padding: 2px 30px 2px 0px; /* Adjust padding as needed */
       font-size:2px;
-      margin: 9px 6px;
+      margin: 8px 6px;
       border-radius: 10px; /* This is the key for the pill shape */
 }

@@ -1,0 +1,58 @@
+{
+  "templater-obsidian:create-new-note-from-template": [],
+  "templater-obsidian:insert-templater": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Enter"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ],
+  "templater-obsidian:jump-to-next-cursor-location": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "markdown:toggle-preview": [],
+  "workspace:new-tab": [],
+  "obsidian-to-anki-plugin:anki-scan-vault": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ],
+  "editor:open-link-in-new-leaf": [],
+  "editor:delete-paragraph": [],
+  "templater-obsidian:0 - Templates/003 Translate.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "templater-obsidian:0 - Templates/000 Screenshot.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ]
+}
