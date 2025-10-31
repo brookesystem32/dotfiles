@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "0 - Templates/001 Cloze Deletion (Translation).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "001 Cloze Deletion (Translation)"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#flashcard",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,12 +89,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4d083418e0078c3f",
@@ -186,30 +186,34 @@
   },
   "active": "808a29bd69c98b37",
   "lastOpenFiles": [
-    "0 - Images/Pasted image 20251031110518.png",
-    "0 - Images/Pasted image 20251031110439.png",
-    "0 - Images/Pasted image 20251031110432.png",
-    "0 - Images/Pasted image 20251031110401.png",
-    "0 - Images/Pasted image 20251031110317.png",
-    "0 - Images/Pasted image 20251031110303.png",
-    "0 - Images/Pasted image 20251031110130.png",
-    "0 - Images/Pasted image 20251031105908.png",
-    "0 - Images/Pasted image 20251031105903.png",
-    "0 - Images/Pasted image 20251031105853.png",
-    "0 - Images/Pasted image 20251031105847.png",
-    "1 - Cards/Philosophy Q2 Q3.md",
-    "1 - Cards/Philosophy Q2 Q4.md",
-    "1 - Cards/Emp Tech Q2 - Q1.md",
-    "1 - Cards/Emp Tech Q2 - Q2.md",
-    "1 - Cards/Emp Tech Q2 - Q3.md",
+    "0 - Templates/000 Cloze Deletion Template.md",
+    "mah.md",
     "Untitled.md",
+    "1 - Cards/Philosophy Q2 Q4.md",
+    "1 - Cards/Emp Tech Q2 - Q2.md",
+    "a.txt~",
+    "a.md",
+    "a.txt",
+    "skobado.md",
+    "0 - Images/Pasted image 20251031114000.png",
+    "0 - Images/Pasted image 20251031113834.png",
+    "0 - Images/Pasted image 20251031113751.png",
+    "0 - Images/Pasted image 20251031113725.png",
+    "0 - Images/Pasted image 20251031113519.png",
+    "0 - Images/Pasted image 20251031113352.png",
+    "0 - Images/Pasted image 20251031113313.png",
+    "0 - Images/Pasted image 20251031113255.png",
+    "0 - Images/Pasted image 20251031113211.png",
+    "0 - Images/Pasted image 20251031111043.png",
+    "1 - Cards/Philosophy Q2 Q3.md",
+    "1 - Cards/Emp Tech Q2 - Q1.md",
+    "1 - Cards/Emp Tech Q2 - Q3.md",
     "0 - Templates/001 Cloze Deletion (Translation).md",
     "1 - Cards/Philosophy Q2 Q2.md",
     "0 - Templates/003 Translate.md",
     "0 - Templates/003 Screenshot.md",
     "0 - Templates/001 Cloze Deletion Enumeration Template.md",
     "0 - Templates/002 Target Deck.md",
-    "0 - Templates/000 Cloze Deletion Template.md",
     "1 - Cards/Emp Tech Q2 - Q1 1.md",
     "1 - Cards/Philosophy.md",
     "0 - Templates/002 Cloze Deletion Multiple Template.md",

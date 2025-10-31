@@ -8,7 +8,6 @@ grimblast copy active
 } | dotool
 
 hyprctl dispatch focuswindow "class:obsidian"
-1
 {
   echo key alt+tab
   sleep 1
