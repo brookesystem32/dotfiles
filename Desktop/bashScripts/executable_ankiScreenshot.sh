@@ -5,7 +5,7 @@ hyprctl dispatch focuswindow "class:zen"
 grimblast copy active
 {
   echo key k:109
-} | dotool
+} | dotoolc
 
 hyprctl dispatch focuswindow "class:obsidian"
 {
@@ -13,4 +13,4 @@ hyprctl dispatch focuswindow "class:obsidian"
   sleep 1
   echo key ctrl+v
   echo key shift+k:28
-} | dotool
+} | dotoolc
